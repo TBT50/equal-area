@@ -1,0 +1,28 @@
+/**
+ * Basic typography style for copy text
+ */
+// body {
+//   color: $text-color;
+//   font: normal 125% / 1.4 $text-font-stack;
+// }
+
+.primary-header {
+  color: $secondary-text-color;
+  font-family: $secondary-font;
+  font-size: 38px;
+  line-height: 42px;
+}
+
+.secondary-header {
+  color: $secondary-text-color;
+  font-family: $secondary-font;
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.tertiary-header {
+  color: $secondary-text-color;
+  font-family: $secondary-font;
+  font-size: 22px;
+  line-height: 22px;
+}
