@@ -12,11 +12,14 @@
   "devDependencies": {
     "autoprefixer": "^9.5.0",
     "gulp": "^3.9.1",
-    "gulp-imagemin": "^5.0.3",
+    "gulp-imagemin": "^4.1.0",
     "gulp-postcss": "^8.0.0",
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.5",
     "imagemin-mozjpeg": "^8.0.0",
     "imagemin-pngquant": "^7.0.0"
+  },
+  "dependencies": {
+    "sal.js": "^0.5.0"
   }
 }
