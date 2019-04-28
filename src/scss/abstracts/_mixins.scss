@@ -1,0 +1,6 @@
+@mixin respond-phone {
+  @media (max-width: 450px) {
+    @content
+  }
+};
+

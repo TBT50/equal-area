@@ -1,0 +1,68 @@
+.project {
+  margin-top: 173px;
+}
+
+.project__header {
+  color: #010d14;
+  font-family: $secondary-font;
+  font-size: 38px;
+  line-height: 42px;
+  letter-spacing: 0.23px;
+}
+
+.project__subheader {
+  margin: 45px 0 28px;
+}
+
+.project__text {
+  color: #676e72;
+  line-height: 24px;
+  letter-spacing: 0.08px;
+  margin-bottom: 24px;
+}
+
+.project-buttons {
+  border: 2px solid #086845;
+  border-radius: 3px;
+  display: flex;
+  margin: 43px 0 90px;
+}
+
+.project-btn {
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.project-btn.active {
+  background-color: #086845;
+  
+
+  .project-btn__title {
+    color: #FFFFFF;
+  }
+
+  svg path {
+    fill: #FFFFFF;
+  }
+}
+
+.project-btn:not(:last-child) {
+  border-right: 2px solid #086845;
+}
+
+
+.project-btn__title {
+  color: #086845;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 42px;
+  text-transform: uppercase;
+  letter-spacing: 0.08px;
+  margin-left: 15px;
+}
+
+.projects-list {
+  background-color: #fbfbfb;
+}

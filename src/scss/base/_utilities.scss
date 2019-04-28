@@ -1,0 +1,36 @@
+.u-center-1 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  
+
+  // @media (max-width: 1200px){
+  //   padding-left: 40px;
+  //   padding-right: 40px;
+  // }
+}
+
+.u-center--wider {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.u-fixed-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: #FFFFFF;
+  height: 90px;
+}
+
+.u-contact-margin {
+  margin-top: 48px;
+}
+
+.u-max-width-100 {
+  max-width: 100%;
+}

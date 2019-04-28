@@ -1,0 +1,134 @@
+.form-group {
+  position: relative;
+  margin: 30px 0 23px;
+}
+
+.form-group__label {
+  color: #a3a3a4;
+  font-family: $primary-font;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.09px;
+  position: absolute;
+  top: -6px;
+  transition: 0.2s ease all;
+}
+
+.form-group__input {
+  width: 100%;
+  border: 0;
+  border-radius: 0;
+  border-bottom: 1px solid #c3c6cc;
+  padding-bottom: 5px;
+}
+
+.form-group textarea:focus + .form-group__label,
+.form-group textarea:valid + .form-group__label,
+.form-group__input:focus + .form-group__label,
+.form-group__input:valid + .form-group__label {
+  top: -20px;
+}
+
+.form-group__textarea {
+  border: 0;
+  border-bottom: 2px solid #c3c6cc;
+  width: 100%;
+  min-height: 125px;
+}
+
+.form-checkbox input[type="checkbox"] {
+  opacity: 0;
+}
+
+.form-checkbox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-checkbox__label {
+  position: relative;
+  display: inline-block;
+  font-size: 12px;
+  padding-left: 40px;
+  left: -15px;
+  margin: 0;
+}
+
+.form-checkbox__label::before,
+.form-checkbox__label::after {
+  position: absolute;
+  content: "";
+  display: inline-block;
+}
+
+/*Outer box of the fake checkbox*/
+.form-checkbox__label::before{
+  height: 18px;
+  width: 18px;
+  border-radius: 5px;
+  left: 0px;
+  background-color: #9ea2a7;
+  
+  /*(24px line-height - 16px height of fake checkbox) / 2 - 1px for the border
+   *to vertically center it.
+   */
+  top: 3px;
+}
+
+/*Checkmark of the fake checkbox*/
+.form-checkbox__label::after {
+  height: 7px;
+  width: 10px;
+  border-left: 3px solid;
+  border-bottom: 3px solid;
+  transform: rotate(-45deg);
+  left: 4px;
+  top: 7px;
+  color: #FFFFFF;
+}
+
+/*Hide the checkmark by default*/
+.form-checkbox input[type="checkbox"] + .form-checkbox__label::after {
+  content: none;
+}
+
+/*Unhide on the checked state*/
+.form-checkbox input[type="checkbox"]:checked + .form-checkbox__label::after {
+  content: "";
+}
+
+.form-checkbox input[type="checkbox"]:checked + .form-checkbox__label::before {
+  background-color: #086845;
+}
+
+/*Adding focus styles on the outer-box of the fake checkbox*/
+.form-checkbox input[type="checkbox"]:focus + .form-checkbox__label::before {
+  outline: rgb(59, 153, 252) auto 5px;
+}
+
+
+/* TOOLTIP */
+.checkbox-tooltip {
+  color: #086845;
+  font-weight: 700;
+  font-size: 12px;
+  margin-right: 5px;
+
+  &::after {
+    content: "›";
+    color: #3a6e47;
+    font-size: 15px;
+    position: relative;
+    left: 5px;
+  }
+}
+
+
+
+
+
+
+
+
+
+

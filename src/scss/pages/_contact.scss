@@ -1,0 +1,76 @@
+.contact {
+  margin-top: 135px;
+  margin-bottom: 70px;
+
+  @media (min-width: 1050px) {
+    margin-top: 175px;
+    margin-bottom: 163px;
+  }
+}
+
+.contact__header {
+  color: #010d14;
+  font-family: $secondary-font;
+  font-size: 22px;
+  line-height: 22px;
+  letter-spacing: 0.13px;
+  margin: 0 0 15px;
+}
+
+.contact__header--thankyou {
+  margin: 15px 0 15px;
+}
+
+.contact__text {
+  margin: 0;
+}
+
+.contact__textarea {
+  outline: none;
+}
+
+.contact__email {
+  color: #086845;
+}
+
+.contact__required {
+  color: #686767;
+  font-size: 10px;
+  margin: 9px 0 20px;
+}
+
+.required-sign {
+  color: #d0021b;
+}
+
+.contact-main-header {
+  color: #010d14;
+  font-family: $secondary-font;
+  font-size: 38px;
+  line-height: 42px;
+  letter-spacing: 0.18px;
+  margin-bottom: 32px;
+}
+
+.contact-header {
+  color: #010d14;
+  font-family: $secondary-font;
+  font-size: 22px;
+  line-height: 42px;
+  letter-spacing: 0.18px;
+}
+
+.contact__submit {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.thank-you-container {
+  border: 1px solid #edeff2;
+  height: 462px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

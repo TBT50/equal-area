@@ -1,0 +1,272 @@
+.news {
+  margin-top: 100px;
+  color: #ffffff;
+}
+
+.news__header {
+  color: #010d14;
+  font-family: $secondary-font;
+  font-size: 38px;
+  line-height: 42px;
+  letter-spacing: 0.23px;
+  margin: 75px 0 37px;
+}
+
+.main-article-wrapper {
+  background-image: url('../img/article-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 90px;
+}
+
+.main-article {
+  width: 470px;
+  background-color:rgba(8, 104, 69, 0.8);
+  padding: 28px 35px 33px;
+}
+
+.main-article__date {
+  letter-spacing: 0.08px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  padding-bottom: 18px;
+}
+
+.main-article__text {
+  line-height: 24px;
+  letter-spacing: 0.08px;
+  margin: 36px 0 70px;
+}
+
+.main-article__btn {
+  display: flex;
+  margin-left: auto;
+  width: 144px;
+  padding: 0 16px 0 19px;
+}
+
+.articles {
+  background-color: #fbfbfb;
+  padding-top: 90px;
+}
+
+.article {
+  border: 1px solid #eeeeee;
+  margin-bottom: 50px;
+  min-height: 450px;
+  height: calc(100% - 50px);
+  position: relative;
+}
+
+.article__img {
+  background-image: url('../img/article-img.jpg');
+  background-size: cover;
+
+  img {
+    max-width: 100%;
+  }
+}
+
+.article__body {
+  padding: 23px 20px 7px;
+}
+
+.article__header {
+  color: #010d14;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.13px;
+  font-weight: 600;
+}
+
+.article__date {
+  color: #676e72;
+  font-size: 12px;
+  letter-spacing: 0.07px;
+}
+
+.article__text {
+  color: #676e72;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.07px;
+  margin: 22px 0 31px;
+  overflow: hidden;
+}
+
+.article__btn {
+  color: #086845;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0.04px;
+  display: block;
+  width: 100px;
+  margin-left: auto;
+  position: absolute;
+  bottom: 6px;
+  right: 12px;
+}
+
+.pagin-wrapper {
+  width: 218px;
+  position: relative;
+  bottom: 38px;
+  margin: 0 auto 78px;
+  text-align: center;
+}
+
+.page-item .page-link {
+  color: #a3a3a4;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+  padding: 5px;
+  border: 0;
+}
+
+.page-item {
+  position: relative;
+  
+}
+
+.page-item.active::after {
+  content: "";
+  height: 2px;
+  background-color: #086845;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.page-item.active .page-link {
+  background-color: #FFFFFF;
+  color: #086845;
+  letter-spacing: 0.1px;
+}
+
+.prev-page {
+  transform: rotate(180deg);
+  position: relative;
+  bottom: -5px;
+}
+
+.prev-page,
+.next-page {
+  display: inline-block;
+  color: #010d14;
+  padding: 15px;
+  font-size: 25px;
+  margin: 0 10px;
+}
+
+.pagination {
+  align-items: center;
+}
+
+
+/* aktualnosci szczegoly */
+.article-details {
+  margin-top: 170px;
+}
+
+.article-details__img {
+  img {
+    max-width: 100%;
+  }
+}
+
+.article-details__header {
+  margin-bottom: 0;
+}
+
+.article-buttons {
+  border-bottom: 1px solid #edeff2;
+  display: flex;
+  justify-content: space-between;
+  padding: 9px 0 2px;
+  margin-bottom: 53px;
+
+  a {
+    color: #676e72;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0.04px;
+  }
+}
+
+.article-details__subheader {
+  margin-top: 34px;
+}
+
+.details-list {
+  margin-top: 11px;
+  list-style-image: url('../img/li.svg');
+  margin-left: 19px;
+
+  li {
+    margin-bottom: 8px;
+  }
+}
+
+.next-article {
+  margin-left: 30px;
+}
+
+.article-table {
+  margin-top: 41px;
+  margin-bottom: 107px;
+  border-bottom: 1px solid #edeff2;
+
+  p {
+    line-height: 24px;
+    letter-spacing: 0.08px;
+    margin: 0;
+    padding: 5px 35px;
+  }
+}
+
+.left-arrow {
+  margin-right: 10px;
+}
+
+.right-arrow {
+  margin-left: 10px;
+}
+
+.table-row.header-row {
+  background-color: #086845;
+  padding: 13px 0;
+  
+  p {
+    color: #FFFFFF;
+    padding: 0 35px;
+  }
+  
+}
+
+.table-row {
+  display: flex;
+  padding: 5px 0;
+}
+
+.table-row--bg {
+  background-color: #fbfbfb;
+}
+
+.column-1 {
+  width: 22.5%;
+}
+
+.column-2 {
+  width: 34%;
+}
+
+.column-3 {
+  width: 40%;
+}

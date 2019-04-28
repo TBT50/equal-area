@@ -1,2 +1,58 @@
-.primary-btn {
+.button {
+  height: 44px;
+  border-radius: 3px; 
+  display: inline-flex;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 18px 0 31px;
+
+  .span-margin-right {
+    margin-right: 10px;
+  }
+
+  i {
+    font-style: normal;
+    font-size: 20px;
+  }
+}
+
+.button:hover {
+  text-decoration: none;
+}
+
+.button-white {
+  height: 44px;
+  border-radius: 3px;
+  background-color: #ffffff;
+  color: #086845;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 42px;
+  text-transform: uppercase;
+  letter-spacing: 0.08px;
+  transition: all 400ms;
+
+  &:hover {
+    color: #FFFFFF;
+    background-color: $btn-green-bg;
+  }
+}
+
+.button-green {
+  background-color: $btn-green-bg;
+  color: #ffffff;
+  transition: all 400ms;
+
+  &:hover {
+    background-color: #064830;
+    color: #FFFFFF;
+  }
+}
+
+.button--wider {
+  padding: 0 23px 0 34px;
 }

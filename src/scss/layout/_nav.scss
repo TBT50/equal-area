@@ -1,0 +1,118 @@
+.page-nav {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
+  align-items: center;
+
+  @media (min-width: 1200px) {
+    max-width: 1235px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .nav-item {
+    border-bottom: 1px solid #eceff2;
+
+    @media (min-width: 1200px) {
+      position: static;
+      border: 0;
+      margin-top: 10px;
+      margin-left: 20px;
+    }
+
+    svg {
+      fill: #010d14;
+      width: 20px;
+    }
+  }
+
+  .nav-item:first-child {
+    img {
+      position: relative;
+      bottom: 3px;
+    }
+  }
+
+  .nav-item:hover,
+  .nav-item.active {
+    @media (min-width: 1200px) {
+      // border-bottom: 2px solid $btn-green-bg;
+    }
+
+    .nav-link {
+      color: #086845;
+      transition: all 300ms;
+    }
+
+    svg {
+      fill: $btn-green-bg;
+    }
+  }
+
+  .nav-link {
+    color: #010d14;
+    padding: 25px 15px 30px 15px !important;
+    line-height: 18px;
+    text-transform: uppercase;
+    height: 73px;
+    position: relative;
+
+    @media (min-width: 1200px) {
+      &::after {
+        content: '';
+        height: 3px;
+        display: block;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        background: $btn-green-bg;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -2px;
+        opacity: 0;
+        transition: all .3s;
+      }
+    }
+
+    
+  }
+
+  .nav-link:hover::after {
+    opacity: 1;
+  }
+}
+
+.nav-item.active .nav-link::after {
+  opacity: 1;
+}
+
+.navbar-toggler {
+  padding: 15px;
+}
+
+.mobile-menu {
+  background-color: #FFFFFF;
+  position: absolute;
+  top: 90px;
+  right: 0;
+  left: 0;
+  text-align: center;
+
+  @media (min-width: 1200px) {
+    position: static;
+  }
+}
+
+.close-menu-btn {
+  display: none;
+}
+
+.close-menu-btn.menu-opened {
+  display: block;
+}
+
+.open-menu-btn.menu-opened {
+  display: none;
+}

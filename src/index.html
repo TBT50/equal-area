@@ -1,253 +1,393 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Equal Area" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
-    <link
-      href="https://fonts.googleapis.com/css?family=Crete+Round%7COpen+Sans"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/main.css" />
-  </head>
-  <body>
-    <header>
-      <a href="">asd</a>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about-us.html">O nas</a></li>
-          <li><a href="#">Projekty</a></li>
-          <li><a href="#">Dla inwestora</a></li>
-          <li><a href="#">Współpraca</a></li>
-          <li><a href="news.html">Aktualności</a></li>
-          <li><a href="contact.html">Kontakt</a></li>
-        </ul>
-      </nav>
-    </header>
+
+<head>
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-KQRL67T');
+    </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="favicon/apple-touch-icon-152x152.png">
+    <link rel="icon" type="image/png" href="favicon/favicon-196x196.png" sizes="196x196">
+    <link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="favicon/favicon-128.png" sizes="128x128">
+    <meta name="application-name" content="&nbsp;">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta name="msapplication-TileImage" content="mstile-144x144.png">
+    <meta name="msapplication-square70x70logo" content="mstile-70x70.png">
+    <meta name="msapplication-square150x150logo" content="mstile-150x150.png">
+    <meta name="msapplication-wide310x150logo" content="mstile-310x150.png">
+    <meta name="msapplication-square310x310logo" content="mstile-310x310.png">
+    <link href="https://fonts.googleapis.com/css?family=Crete+Round|Open+Sans:400,600" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="stylesheet" href="css/lity.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Equal Area</title>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KQRL67T" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div class="u-fixed-navbar">
+        <nav class="navbar navbar-expand-xl page-nav" id="navbar">
+            <a class="page-logo" href="/"><img src="img/equal-area-logo.svg" alt="Przejdź na stronę główną"> </a>
+            <button class="navbar-toggler" id="menuBtn" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <svg class="open-menu-btn" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="42" height="27" viewBox="0 0 42 27">
+                    <defs>
+                        <path id="vqexa" d="M273 32.5c0-.83.67-1.5 1.5-1.5h39a1.5 1.5 0 1 1 0 3h-39a1.5 1.5 0 0 1-1.5-1.5z" />
+                        <path id="vqexb" d="M273 44.5c0-.83.67-1.5 1.5-1.5h39a1.5 1.5 0 1 1 0 3h-39a1.5 1.5 0 0 1-1.5-1.5z" />
+                        <path id="vqexc" d="M273 56.5c0-.83.67-1.5 1.5-1.5h39a1.5 1.5 0 1 1 0 3h-39a1.5 1.5 0 0 1-1.5-1.5z" />
+                    </defs>
+                    <g>
+                        <g transform="translate(-273 -31)">
+                            <g>
+                                <use fill="#086845" xlink:href="#vqexa" />
+                            </g>
+                            <g>
+                                <use fill="#086845" xlink:href="#vqexb" />
+                            </g>
+                            <g>
+                                <use fill="#086845" xlink:href="#vqexc" />
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+                <svg class="close-menu-btn" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="31" viewBox="0 0 32 31">
+                    <defs>
+                        <path id="91z4a" d="M281.27 29.65l27.58 27.58a1.5 1.5 0 1 1-2.12 2.12l-27.58-27.58a1.5 1.5 0 1 1 2.12-2.12z" />
+                        <path id="91z4b" d="M306.41 29.44l-27.94 27.94a1.52 1.52 0 1 0 2.15 2.15l27.94-27.94a1.52 1.52 0 0 0-2.15-2.15z" />
+                    </defs>
+                    <g>
+                        <g transform="translate(-278 -29)">
+                            <use fill="#086845" xlink:href="#91z4a" />
+                        </g>
+                        <g transform="translate(-278 -29)">
+                            <use fill="#086845" xlink:href="#91z4b" />
+                        </g>
+                    </g>
+                </svg>
+            </button>
+            <div class="collapse navbar-collapse mobile-menu" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">
+                            <svg fill="#000000" version="1.1" id="Warstwa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 141.7 141.7" style="enable-background:new 0 0 141.7 141.7;" xml:space="preserve">
+                                <path d="M74.8,0.3h-7.9L11.6,55.2v86.2H59v-39.2h23.7v39.2h47.4V55.2L74.8,0.3z M118.8,130.1H94v-28.2c0-6-4.9-10.9-10.9-10.9H58.7
+                    c-6,0-10.9,4.9-10.9,10.9v28.2H22.9V59.9l47.9-47.5l47.9,47.5V130.1z" />
+                            </svg> <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="onas.html">O nas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projekt-szczegoly.html">Projekty</a></li>
+                    <!-- <li class="nav-item">
+              <a class="nav-link" href="#">Dla inwestora</a>
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link" href="#">Współpraca</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aktualnosci.html">Aktualności</a>
+            </li> -->
+                    <li class="nav-item"><a class="nav-link" href="kontakt.html">Kontakt</a></li>
+                    <!-- <li class="nav-item" id="">
+              <a class="nav-link" href="kontakt.html">Kontakt</a>
+            </li>   -->
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <header class="page-header" id="banner">
+        <div class="page-header__content">
+            <h1 class="page-header__title primary-header primary-header--white">Partnerstwo oparte na dobrym gruncie</h1>
+            <p class="page-header__text">Tworzymy możliwości lokowania kapitału w nieruchomości gruntowe położone w całej Polsce.
+                <br><span>Lokalizacje z potencjałem już od 50 000 zł!</span></p>
+            <!-- <a href="" class="page-header__btn button button-white">
+          <span class="span-margin-right">Poznaj naszą ofertę</span>
+          <i>›</i>
+        </a>  --></div>
+        <div id="scroll-down"><span class="scroll-text">scroll </span><a href="#" class="arrow-container"><span class="arrow">›</span></a></div><img src="img/sygnet.svg" alt="" class="sygnet"></header>
     <main>
-      <section>
-        <h1>Partnerstwo oparte na dobrym gruncie</h1>
-        <p>
-          Tworzymy możliwości lokowania kapitału w nieruchomości gruntowe
-          położone w całej Polsce. Dostępne inwestycje już od 50 000 zł
-        </p>
-        <a href="#">Poznaj naszą ofertę</a>
-        <a href="#">scroll down</a>
-      </section>
-
-      <div>
-        <section>
-          <h2>O nas</h2>
-        </section>
-        <section>
-          <h2>Należymy do Equal Capital</h2>
-          <ul>
-            <li><a href="#">Equal Capital</a></li>
-            <li><a href="#">Equal Estate</a></li>
-            <li><a href="#">Equal Properties</a></li>
-            <li><a href="#">Equal Real Estate</a></li>
-          </ul>
-        </section>
-      </div>
-
-      <section>
-        <h2>Nasza oferta</h2>
-        <p>
-          Grunt to pomysł na dywersyfikację portfela z różną wielkością
-          kapitału. Oferujemy grunty znacznie poniżej ceny rynkowej i real
-        </p>
-        <p>
-          Nieruchomości dostępne w atrakcyjnych lokalizacjach już od 50 000 zł.
-        </p>
-        <ul>
-          <li>
-            <img src="" alt="" />
-            <p>
-              Produkt krótkoterminowy - z potencjałem wzrostu w krótkim czasie
-              przy ograniczonym ryzyku.
-            </p>
-          </li>
-          <li>
-            <img src="" alt="" />
-            <p>
-              Bezpieczny sposób lokaty środków - potwierdzony Księgą Wieczystą.
-            </p>
-          </li>
-          <li>
-            <img src="" alt="" />
-            <p>
-              Innowacyjna strategia na polskim rynku - kontrolowany wzrost
-              wartości.
-            </p>
-          </li>
-          <li>
-            <img src="" alt="" />
-            <p>
-              Wysoko odporny na zmienne czynniki ekonomiczne i polityczne.
-            </p>
-          </li>
-          <li>
-            <img src="" alt="" />
-            <p>
-              Wyselekcjonowany produkt z MPZP w lokalizacji z potencjiałem...
-            </p>
-          </li>
-          <li>
-            <img src="" alt="" />
-            <p>
-              Możliwość odliczenia podatku VAT.
-            </p>
-          </li>
-        </ul>
-        <a href="">Dla inwestora</a>
-      </section>
-
-      <section>
-        <h2>Partnerski plan działania</h2>
-        <p>
-          Nasz doświadczony zespół praktyków zapewnia kompleksową obsługę
-          Klientów i partnerski plan działania. Kreujemy nowe, innowacyjne
-          produkty w obszarze obrotu i planów wzrostu wartości gruntów
-          inwestycyjnych. W zależności od potrzeb, doradzamy w wyborze
-          nieruchomości pod inwestycje lub na własny użytek.
-        </p>
-        <ul>
-          <li>
-            <span>01.</span>
-            <h3>Wybór nieruchomości</h3>
-            <p>
-              Dopasowanie optymalnego planu inwestycji do kapitału i wybór
-              nieruchomości.
-            </p>
-          </li>
-          <li>
-            <span>02.</span>
-            <h3>Akt notarialny</h3>
-            <p>
-              Zakup w formie aktu notarialnego i przeniesienie własności.
-            </p>
-          </li>
-          <li>
-            <span>03.</span>
-            <h3>Realizacja planu wzrostu wartości</h3>
-            <p>
-              Realizacja planu wzrostu wartości
-            </p>
-          </li>
-          <li>
-            <span>04.</span>
-            <h3>Możliwość sprzedaży</h3>
-            <p>
-              Możliwość odsprzedaży uzbrojonej nieruchomości już po 2 latach.
-            </p>
-          </li>
-        </ul>
-      </section>
-
-      <section>
-        <h2>Wybrane projekty</h2>
-        <div>
-          <article>
-            <div>
-              <img src="" alt="" />
+        <section class="main-about-us">
+            <div class="container u-center-1">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2 class="main-about-us__header secondary-header">O Nas</h2>
+                        <p class="main-about-us__text primary-text">Grunty są naturalnie bliskie Naszej naturze.
+                            <br>Kompleksową obsługę zapewnia zespół praktyków z wieloletnim doświadczeniem na rynku nieruchomości i rozwiązań inwestycyjnych.</p>
+                        <p class="main-about-us__text primary-text">Przedmiotem naszej działalności jest pozyskiwanie starannie wyselekcjonowanych gruntów rolnych, budowlanych i rekreacyjnych. Gruntownie analizujemy potrzeby rynku i potencjał lokalizacji.</p>
+                        <p class="main-about-us__text primary-text">Dzięki opracowaniu strategii, planu zagospodarowania i zarządzaniu realizacją projektu, tworzymy możliwości lokowania kapitału w grunty położone w całej Polsce.</p><a href="onas.html" class="main-about-us__btn button button-green"><span class="span-margin-right">Poznaj nas</span> <i><img src="img/right-arrow-btn.png" alt=""></i></a></div>
+                    <div class="col-md-6">
+                        <h2 class="secondary-header">Należymy do grupy Equal Capital</h2>
+                        <ul class="equal-logos">
+                            <li class="equal-logo"><img src="img/logos/equal-capital.svg" width="220" alt="EQUAL CAPITAL logo"></li>
+                            <li class="equal-logo"><img src="img/logos/equal-estate.svg" width="220" alt="EQUAL CAPITAL logo"></li>
+                            <li class="equal-logo"><img src="img/logos/equal-properties.svg" width="220" alt="EQUAL CAPITAL logo"></li>
+                            <li class="equal-logo"><img src="img/logos/equal-real-estate.svg" width="220" alt="EQUAL CAPITAL logo"></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <h3>Wzgórza dydlewskie</h3>
-            <p>
-              Szczepanów położony jest w gminie Miękinia, jednym z
-              najważniejszych obszarów strefy ekonomicznej wokół Wrocławia -
-              Legnicka Specjalna Strefa Ekonomiczna. W gminie jest wysoko
-              rozwinita sieć komunikacyjna ...
-            </p>
-            <ul>
-              <li>
-                <span>IKONKA</span>
-                <span>Łódź i okolice</span>
-              </li>
-              <li>
-                <span>IKONKA</span>
-                <span>1200m2</span>
-              </li>
-              <li>
-                <a href="">Więcej</a>
-              </li>
-            </ul>
-          </article>
-          <article>
-            <div>
-              <img src="" alt="" />
+        </section>
+        <section class="main-our-offer" data-aos="fade-up">
+            <div class="container-fluid u-center-1">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="secondary-header main-our-offer__header">Nasza oferta</h2>
+                        <p class="main-our-offer__text">Grunt to pomysł na dywersyfikację portfela z różną wielkością kapitału. Oferujemy grunty poniżej ceny rynkowej i z potencjałem wzrostu wartości.</p>
+                        <p class="main-our-offer__text">Nieruchomości dostępne w atrakcyjnych lokalizacjach <strong>już od 50 000zł!</strong></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 main-our-offer__item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" viewBox="0 0 141.7 141.7" fill="#5eb130">
+                            <path d="M70.8 141.4C31.9 141.4.3 109.8.3 70.9S32 .3 70.8.3c38.9 0 70.5 31.6 70.5 70.5.1 38.9-31.6 70.6-70.5 70.6zm0-136.5c-36.4 0-66 29.6-66 66s29.6 66 66 66 66-29.6 66-66-29.6-66-66-66zm0 122.8c-31.4 0-56.9-25.5-56.9-56.9S39.5 14 70.8 14s56.9 25.5 56.9 56.9-25.5 56.8-56.9 56.8zm0-109.2C42 18.5 18.5 42 18.5 70.8s23.5 52.3 52.3 52.3 52.3-23.5 52.3-52.3c.1-28.8-23.4-52.3-52.3-52.3zM93.6 89c-.4 0-.8-.1-1.2-.3L69.7 75.1c-.7-.4-1.1-1.2-1.1-1.9V34.5a2.26 2.26 0 0 1 2.3-2.3 2.26 2.26 0 0 1 2.3 2.3v37.4l21.6 13c1.1.6 1.4 2 .8 3.1-.5.7-1.2 1-2 1z" />
+                        </svg>
+                        <p>Produkt <strong>krótkoterminowy</strong> - z potencjałem wzrostu w krótkim czasie przy ograniczonym ryzyku.</p>
+                    </div>
+                    <div class="col-md-4 main-our-offer__item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="52" viewBox="0 0 141.7 141.7">
+                            <path d="M139.1 14h-15.9V7.2a2.26 2.26 0 0 0-2.3-2.3H93.6a2.26 2.26 0 0 0-2.3 2.3V14H89c-7.9 0-14.8 4.5-18.2 11.1C67.4 18.5 60.6 14 52.7 14h-50a2.26 2.26 0 0 0-2.3 2.3v100.1a2.26 2.26 0 0 0 2.3 2.3h50a15.88 15.88 0 0 1 15.9 15.9 2.26 2.26 0 0 0 2.3 2.3 2.26 2.26 0 0 0 2.3-2.3 15.88 15.88 0 0 1 15.9-15.9h50a2.26 2.26 0 0 0 2.3-2.3V16.3c0-1.3-1.1-2.3-2.3-2.3zM95.9 9.4h22.7V53l-10.1-6.7c-.4-.3-.8-.4-1.3-.4-.4 0-.9.1-1.3.4l-10 6.7V9.4zM68.6 121.7c-3.8-4.6-9.5-7.6-15.9-7.6H4.9V18.5h47.8a15.88 15.88 0 0 1 15.9 15.9v87.3zm68.2-7.6H89a20.47 20.47 0 0 0-15.9 7.6V34.5A15.88 15.88 0 0 1 89 18.6h2.3v38.7c0 .8.5 1.6 1.2 2s1.6.4 2.3-.1l12.4-8.3 12.4 8.3c.4.3.8.4 1.3.4.4 0 .7-.1 1.1-.3.7-.4 1.2-1.2 1.2-2V18.5h13.6v95.6z" fill="#5eb130" />
+                        </svg>
+                        <p><strong>Bezpieczny</strong> sposób lokaty środków - potwierdzony <strong>Księgą Wieczystą.</strong></p>
+                    </div>
+                    <div class="col-md-4 main-our-offer__item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="55" viewBox="0 0 141.7 141.7" fill="#5eb130">
+                            <path d="M96.5 62.1h-.2c-.9-.1-1.5-.9-1.5-1.8.1-.7.1-1.5.1-2.3 0-13.3-10.8-24.2-24.1-24.2a1.58 1.58 0 0 1-1.6-1.6 1.58 1.58 0 0 1 1.6-1.6c15.1 0 27.4 12.3 27.4 27.4 0 .9 0 1.7-.1 2.6-.1.8-.8 1.5-1.6 1.5zM70.9 16.7a1.58 1.58 0 0 1-1.6-1.6V2a1.58 1.58 0 1 1 3.2 0v13.1c0 .9-.8 1.6-1.6 1.6zm-21.7 5.8c-.6 0-1.1-.3-1.4-.8l-6.6-11.4c-.4-.8-.2-1.8.6-2.2.2-.1.5-.2.8-.2.6 0 1.1.3 1.4.8l6.6 11.4c.4.8.2 1.8-.6 2.2-.2.1-.5.2-.8.2zm70.5 65.8c-.3 0-.6-.1-.8-.2l-11.3-6.6c-.8-.4-1-1.4-.6-2.2.3-.5.8-.8 1.4-.8.3 0 .6.1.8.2l11.3 6.6c.8.4 1 1.4.6 2.2-.3.5-.8.8-1.4.8zM33.3 38.4c-.3 0-.6-.1-.8-.2l-11.3-6.6c-.8-.4-1-1.4-.6-2.2.3-.5.8-.8 1.4-.8.3 0 .6.1.8.2l11.3 6.6c.8.4 1 1.4.6 2.2-.2.5-.8.8-1.4.8zm80.9 21.7a1.58 1.58 0 1 1 0-3.2h13.1a1.58 1.58 0 1 1 0 3.2h-13.1zm-99.8 0a1.58 1.58 0 1 1 0-3.2h13.1a1.58 1.58 0 1 1 0 3.2H14.4zm94-21.7c-.6 0-1.1-.3-1.4-.8-.4-.8-.2-1.8.6-2.2l11.3-6.6c.2-.1.5-.2.8-.2.6 0 1.1.3 1.4.8.4.8.2 1.8-.6 2.2l-11.3 6.6c-.3.1-.6.2-.8.2zM22 88.3c-.6 0-1.1-.3-1.4-.8-.4-.8-.2-1.8.6-2.2l11.3-6.6c.2-.1.5-.2.8-.2.6 0 1.1.3 1.4.8.4.8.2 1.8-.6 2.2l-11.3 6.6c-.2.1-.5.2-.8.2zm70.5-65.8c-.3 0-.6-.1-.8-.2-.8-.4-1-1.4-.6-2.2l6.6-11.4c.3-.5.8-.8 1.4-.8.3 0 .6.1.8.2.8.4 1 1.4.6 2.2l-6.6 11.4c-.3.5-.8.8-1.4.8zM65.6 141.4c-5.9 0-10.6-4.8-10.6-10.7v-14.1c0-13.1-4.5-26.2-12.6-36.8-4.8-6.4-7.4-14-7.3-22 .1-9.4 3.8-18.2 10.4-24.9 6.7-6.7 15.5-10.5 24.8-10.6h.5c9.5 0 18.4 3.7 25.1 10.3 6.9 6.8 10.7 15.9 10.7 25.5 0 7.9-2.5 15.4-7.3 21.6-8.2 10.9-12.6 23.6-12.6 36.9v14.1c0 5.9-4.8 10.7-10.6 10.7H65.6zm-7.4-12.3c0 .4-.2 3.2.9 5.2 1.4 2.4 3.8 3.8 6.5 3.8h10.6c1.6 0 2.9-.6 4.1-1.2 2.7-1.4 3.2-4.8 3.2-4.9.1-.4.1-.8.1-1.3v-11.1H58.2v9.5zM70.8 25.5h-.5c-17.5.2-31.9 14.7-32.1 32.3-.1 7.3 2.2 14.2 6.6 20 8.4 11 13.1 24.5 13.3 37.9v.7h25.3v-.7c.2-13.6 4.8-26.8 13.3-38 4.3-5.7 6.6-12.5 6.6-19.7 0-8.8-3.4-17-9.7-23.2-6-6-14.1-9.3-22.8-9.3z" />
+                        </svg>
+                        <p><strong>Innowacyjna</strong> strategia na polskim rynku - kontrolowany wzrost wartości.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 main-our-offer__item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" viewBox="0 0 141.7 141.7">
+                            <path d="M32.8 54.7L54.1 69l-8.2 24.6a2.38 2.38 0 0 0 .8 2.6c.4.3.9.4 1.4.4s.9-.1 1.3-.4L70.8 81l21.4 15.2a2.25 2.25 0 0 0 2.7 0c.8-.6 1.1-1.6.8-2.6L87.6 69l21.3-14.3c.8-.6 1.2-1.6.9-2.6s-1.2-1.6-2.2-1.6H81.3L73 24.8a2.38 2.38 0 0 0-2.2-1.6c-1 0-1.9.6-2.2 1.6l-8.2 25.8H34.1a2.38 2.38 0 0 0-2.2 1.6c-.3.9.1 2 .9 2.5zm29.3.4c1 0 1.9-.6 2.2-1.6L70.8 33l6.5 20.5a2.38 2.38 0 0 0 2.2 1.6H100L83.6 66.2c-.9.6-1.2 1.6-.9 2.6l6.5 19.6-17-12.1a2.25 2.25 0 0 0-2.7 0l-17 12.1L59 68.8c.3-1 0-2-.9-2.6L41.6 55.1h20.5zM130.6.4H11.1a2.26 2.26 0 0 0-2.3 2.3v50.2c.8 38.9 24.9 73.6 61.2 88.3.3.1.6.2.9.2s.6-.1.9-.2c36.3-14.7 60.3-49.4 61.2-88.4V2.6a2.48 2.48 0 0 0-2.4-2.2zm-2.3 52.4c-.8 36.8-23.3 69.6-57.4 83.8-34.1-14.2-56.6-47-57.4-83.8V4.9h114.9v47.9z" fill="#5eb130" />
+                        </svg>
+                        <p>Wysoko <strong>odporny</strong> na zmienne czynniki ekonomiczne i polityczne.</p>
+                    </div>
+                    <div class="col-md-4 main-our-offer__item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="53" viewBox="0 0 141.7 141.7" fill="#5eb130">
+                            <path d="M120.7 14H97.1l-.3-.4c-2.4-2.6-5.6-4-9-4.2h-4.1l-.3-.7c-2.5-6-8.9-9.4-15.3-8.1-4.4.9-8.1 3.9-9.9 8.1l-.2.8h-2.8c-3.5-.2-6.8.9-9.4 3.2a4.74 4.74 0 0 0-1 1l-.4.3H21a6.81 6.81 0 0 0-6.8 6.8v113.7a6.81 6.81 0 0 0 6.8 6.8h99.7c3.7 0 6.8-3.1 6.8-6.8V20.8a6.81 6.81 0 0 0-6.8-6.8zm-74.8 7.8c.1-1.3.5-2.5 1.2-3.7l.2-.2c.2-.2.4-.4.5-.7l.2-.3c.3-.3.5-.6.8-.9 1.7-1.5 3.9-2.2 6.3-2.1h4.7c1.1 0 2-.8 2.2-1.8.7-3.6 3.5-6.4 7.1-7.1 4.9-1 9.7 2.2 10.7 7.1.2 1.1 1.1 1.9 2.2 1.9h5.6c2.3.1 4.4 1.1 6 2.8s2.4 3.9 2.3 6.4v4.5h-50v-5.9zm59 10.4v86.4h-68V32.2h68zM123 134.5a2.26 2.26 0 0 1-2.3 2.3H21c-1.2 0-2.3-1-2.3-2.3V20.8a2.26 2.26 0 0 1 2.3-2.3h20.9l-.3 1.4c-.1.5-.2 1.1-.2 1.6v6.1h-6.8c-1.2 0-2.3 1-2.3 2.3v91a2.26 2.26 0 0 0 2.3 2.3h72.5a2.26 2.26 0 0 0 2.3-2.3v-91a2.26 2.26 0 0 0-2.3-2.3h-6.8v-4.4c0-1.1 0-2.2-.3-3.3l-.3-1.4h21a2.26 2.26 0 0 1 2.3 2.3v113.7zM62 74.7c-.8-1-2.2-1.1-3.2-.2-1 .8-1.1 2.3-.2 3.2l9.2 10.8c.4.5 1.1.8 1.7.8.7 0 1.3-.3 1.7-.8l26-32.3c.8-1 .6-2.4-.3-3.2-1-.8-2.4-.6-3.2.3l-24.3 30-7.4-8.6zm-5.6 24c3.8 2.8 8.4 4.3 13 4.3a21.59 21.59 0 0 0 3.5-.3c5.9-.9 11-4.1 14.5-8.9a22.14 22.14 0 0 0 4-16.5c-.2-1.2-1.3-2.1-2.6-1.9-1.2.2-2.1 1.4-1.9 2.6a17.8 17.8 0 0 1-3.2 13.2c-2.8 3.8-6.9 6.3-11.5 7-4.7.7-9.3-.4-13.1-3.2s-6.3-6.9-7-11.6c-1.5-9.6 5.1-18.7 14.7-20.2.9-.1 1.8-.2 2.7-.2 2.3 0 4.6.5 6.8 1.4 1.2.5 2.5-.1 3-1.2.5-1.2-.1-2.5-1.2-3-2.7-1.1-5.6-1.7-8.5-1.7a19.53 19.53 0 0 0-3.4.3C54 60.7 45.7 72.1 47.6 84.2c.9 5.9 4 11 8.8 14.5z" />
+                        </svg>
+                        <p><strong>Wyselekcjonowany</strong> produkt z <strong>MPZP</strong><br> w lokalizacji z potencjałem</p>
+                    </div>
+                    <div class="col-md-4 main-our-offer__item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="51" viewBox="0 0 141.7 141.7" fill="#5eb130">
+                            <path d="M75.6 43.2c11.3 0 20.5-9.3 20.5-20.7S86.9 1.8 75.6 1.8s-20.5 9.3-20.5 20.7c.1 11.4 9.2 20.7 20.5 20.7zm0-36.8c8.8 0 15.9 7.2 15.9 16.1s-7.1 16.1-15.9 16.1-15.9-7.2-15.9-16.1S66.8 6.4 75.6 6.4zm-32 78.3c11.3 0 20.5-9.3 20.5-20.7s-9.2-20.7-20.5-20.7S23.1 52.6 23.1 64s9.2 20.7 20.5 20.7zm0-36.9c8.8 0 15.9 7.2 15.9 16.1S52.4 80 43.6 80s-15.9-7.2-15.9-16.1c-.1-8.8 7.1-16.1 15.9-16.1zm95.5 32.3h-22.7a2.26 2.26 0 0 0-2.3 2.3v2.3c-15.3.4-21 4.2-26.1 7.7-4.8 3.3-9 6.1-21.5 6.1h-9.1c-5.2 0-9.6 3.6-10.9 8.5l-9.9-3.3C17.7 97.2 6.7 93.7 2.3 97c-1.2.9-1.9 2.3-1.9 3.9 0 11.3 27.4 24.6 28.6 25.1l8.7 4.2c13 6.3 20.2 9.8 28.6 9.8 10.9 0 27-5.7 38.7-9.8l9.1-3.1v5.9a2.26 2.26 0 0 0 2.3 2.3h22.7a2.26 2.26 0 0 0 2.3-2.3V82.4c-.1-1.3-1.1-2.3-2.3-2.3zm-25 42.2c-2.2.5-5.5 1.7-10.6 3.5-10.8 3.8-27 9.5-37.2 9.5-7.4 0-14.2-3.3-26.7-9.4l-8.8-4.2c-10.9-5.2-26-15.4-26-21.1C7 98.4 24.6 104.4 35 108c3.7 1.3 7.5 2.5 11.1 3.7.8 5.5 5.5 9.8 11.2 9.8H80a2.26 2.26 0 1 0 0-4.6H57.4c-3.8 0-6.8-3.1-6.8-6.9s3.1-6.9 6.8-6.9h9.1c13.8 0 19-3.5 24-6.9 4.7-3.2 9.6-6.5 23.5-6.9v33zm22.7 8.4h-18.2v-46h18.2v46z" />
+                        </svg>
+                        <p>Możliwość odliczenia podatku <strong>VAT.</strong></p>
+                    </div>
+                </div>
+                <!-- <div class="row">
+            <div class="col-md-12">
+              <a href="" class="main-our-offer__btn button button-green">
+                <span class="span-margin-right">Dla inwestora</span>
+                <i><img src="img/right-arrow-btn.png" alt=""></i>
+              </a>  
             </div>
-            <h3>Wzgórza dydlewskie</h3>
-            <p>
-              Szczepanów położony jest w gminie Miękinia, jednym z
-              najważniejszych obszarów strefy ekonomicznej wokół Wrocławia -
-              Legnicka Specjalna Strefa Ekonomiczna. W gminie jest wysoko
-              rozwinita sieć komunikacyjna ...
-            </p>
-            <ul>
-              <li>
-                <span>IKONKA</span>
-                <span>Łódź i okolice</span>
-              </li>
-              <li>
-                <span>IKONKA</span>
-                <span>1200m2</span>
-              </li>
-              <li>
-                <a href="">Więcej</a>
-              </li>
-            </ul>
-          </article>
+          </div> --></div>
+        </section>
+        <div class="container-fluid u-center-1">
+            <section class="main-plan" data-aos="fade-up">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="secondary-header">Partnerski plan działania</h2>
+                        <p class="main-plan__text">Nasz doświadczony zespół praktyków zapewnia kompleksową obsługę Klientów i partnerski plan działania. Kreujemy nowe, <strong>innowacyjne produkty w obszarze obrotu i planów wzrostu wartości gruntów inwestycyjnych.<br></strong>W zależności od potrzeb, doradzamy w wyborze nieruchomości pod inwestycje lub na własny użytek.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="stage-plan">
+                            <div class="stage-plan__number"><span>01.</span></div>
+                            <h3 class="tertiary-header stage-plan__header">Wybór nieruchomości</h3>
+                            <p class="stage-plan__text">Dopasowanie optymalnego planu inwestycji do kapitału i wybór nieruchomości.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="stage-plan">
+                            <div class="stage-plan__number"><span>02.</span></div>
+                            <h3 class="tertiary-header stage-plan__header">Akt notarialny</h3>
+                            <p class="stage-plan__text">Zakup w formie aktu notarialnego i przeniesienie własności.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="stage-plan">
+                            <div class="stage-plan__number"><span>03.</span></div>
+                            <h3 class="tertiary-header stage-plan__header">Realizacja planu wzrostu wartości</h3>
+                            <p class="stage-plan__text">Realizacja planu wzrostu wartości</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="stage-plan last">
+                            <div class="stage-plan__number"><span>04.</span></div>
+                            <h3 class="tertiary-header stage-plan__header">Możliwość sprzedaży</h3>
+                            <p class="stage-plan__text">Możliwość odsprzedaży uzbrojonej nieruchomości już po 2 latach.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
-        <a href="">Zobacz wszystkie projekty</a>
-      </section>
+        <section class="main-projects">
+            <div class="container-fluid u-center-1">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="main-projects__header secondary-header">Wybrane projekty</h2></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6" data-aos="fade-right">
+                        <div class="card">
+                            <div class="video card-img-overlay-wrapper">
+                                <a href="https://www.youtube.com/embed/RU3D8hz97sY?controls=0" data-lity><img src="img/video-main.jpg" alt=""></a>
+                                <svg class="play-btn" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="52" height="40" viewBox="0 0 52 40">
+                                    <defs>
+                                        <path id="38p9a" d="M436.774 3035h-33.548c-5.087 0-9.226-4.14-9.226-9.226v-21.549c0-5.087 4.139-9.226 9.226-9.226h33.548c5.087 0 9.226 4.139 9.226 9.226v21.549c0 5.087-4.139 9.225-9.226 9.225zm-33.548-38.324c-4.162 0-7.549 3.387-7.549 7.55v21.548c0 4.162 3.387 7.548 7.549 7.548h33.548c4.163 0 7.549-3.386 7.549-7.548v-21.549c0-4.162-3.386-7.549-7.549-7.549zm10.064 27.55a.839.839 0 0 1-.839-.839v-16.775a.839.839 0 0 1 1.214-.75l16.775 8.387a.84.84 0 0 1 0 1.5l-16.775 8.388a.84.84 0 0 1-.375.088z" />
+                                    </defs>
+                                    <g>
+                                        <g transform="translate(-394 -2995)">
+                                            <use fill="#fff" xlink:href="#38p9a" />
+                                        </g>
+                                    </g>
+                                </svg>
+                                <!-- <iframe width="100%" height="400px" src="https://www.youtube.com/embed/RU3D8hz97sY?rel=0&showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title">Szczepanów</h3>
+                                <p class="card-text">Kompleks działek, osiedle „Leśne Polana” położone jest w miejscowości Szczepanów, w województwie dolnośląskim...</p>
+                                <ul class="card-text-list">
+                                    <li class="card-text-list__item"><i><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="11" height="14" viewBox="0 0 11 14"><defs><path id="pkhha" d="M160.5 3365.98c-.38 0-.75-.18-.96-.5l-3.66-5.38a5.03 5.03 0 0 1-.88-2.83 5.38 5.38 0 0 1 5.5-5.23 5.37 5.37 0 0 1 5.5 5.23c0 1.01-.3 2-.88 2.83l-3.66 5.38c-.22.32-.58.5-.96.5zm0-12.63a4.03 4.03 0 0 0-4.13 3.92c0 .76.23 1.5.66 2.12l3.47 5.1 3.47-5.1c.43-.62.65-1.36.65-2.12a4.03 4.03 0 0 0-4.12-3.92zm0 6.1a2.24 2.24 0 0 1-2.3-2.18 2.24 2.24 0 0 1 2.3-2.18 2.24 2.24 0 0 1 2.3 2.18 2.24 2.24 0 0 1-2.3 2.18zm0-3.06a.87.87 0 1 0 .92.88.9.9 0 0 0-.92-.87z"/></defs><g><g transform="translate(-155 -3352)"><use fill="#676e72" xlink:href="#pkhha"/></g></g></svg> </i><span>Wrocław</span></li>
+                                    <li class="card-text-list__item"><i><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21" height="16" viewBox="0 0 21 16"><defs><path id="qwa2a" d="M301.22 3365.09h.91v.91h-.91zm-3.65 0h.9v.91h-.9zm5.47 0h.92v.91h-.92zm-3.65 0h.91v.91h-.9zm12.78 0h.35l-.45-.91h1.02l.91 1.82h-1.83zm-1.82 0h.91v.91h-.91zm-1.83-8.2h.91l.46.9h-1.37zm0 8.2h.91v.91h-.9zm-3.65 0h.91v.91h-.91zm1.83 0h.9v.91h-.9zm-3.66-8.2h.92v.9h-.92zm-5.47 0h.9v.9h-.9zm15.06 6.38h-1.02l-.46-.91h1.02zm-13.24-6.38h.91v.9h-.9zm1.83 0h.91v.9h-.91zm5.48 0h.9v.9h-.9zm4.1 2.73h-1.02l-.45-.91h1.02zm-.1 1.82l-.46-.9h1.02l.46.9zm-14.96-.9h1.02l-.46.9h-1.02zm.1 1.82l-.45.9h-1.02l.46-.9zm-.9 1.82l-.46.91h.35v.91H293l.91-1.82zm.8.91h.91v.91h-.91zm1.93-6.38l-.45.91h-1.02l.45-.91zm5.37 1.82h.92v.91h-.92zm3.66 0h.9v.91h-.9zm1.82 0h.91v.91h-.9zm-3.65 0h.91v.91h-.91zm-1.83-1.82h.92v.91h-.92zm2.74-5v5h-.91v-8.2c2.13-1.75 4.26 1.75 6.4 0v3.64c-1.84 1.5-3.66-.85-5.49-.45z"/></defs><g><g transform="translate(-293 -3350)"><use fill="#676e72" xlink:href="#qwa2a"/></g></g></svg> </i><span>950m2</span></li>
+                                </ul><a href="projekt-szczegoly.html" class="button button-green button--wider"><span class="span-margin-right">Więcej</span> <i><img src="img/right-arrow-btn.png" alt=""></i></a></div>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+            <a href="" class="scroll-up" id="scrollToTop"><img src="img/scroll-up-btn.png" alt=""> </a>
+            <!-- <div class="row">
+          <div class="col-md-12">
+            <a href="" class="show-all-projects button button-green">
+              <span class="span-margin-right">Zobacz wszystkie projekty</span>
+              <i><img src="img/right-arrow-btn.png" alt=""></i>
+            </a> 
+          </div>
+        </div> -->
+        </section>
     </main>
-    <footer>
-      <div>
-        <p>Informacje</p>
-        <ul>
-          <li><a href="">Strona główna</a></li>
-          <li><a href="">Projekty</a></li>
-          <li><a href="">Kontakt</a></li>
-          <li><a href="">Polityka prwatności</a></li>
-          <li><a href="">Regulamin</a></li>
-        </ul>
-      </div>
-      <div>
-        <p>O nas</p>
-        <ul>
-          <li><a href="">Strona główna</a></li>
-          <li><a href="">Projekty</a></li>
-          <li><a href="">Kontakt</a></li>
-          <li><a href="">Polityka prwatności</a></li>
-          <li><a href="">Regulamin</a></li>
-        </ul>
-      </div>
-      <div>
-        <p>Dla inwestora</p>
-        <ul>
-          <li><a href="">Dlaczego my?</a></li>
-          <li><a href="">Etapy współpracy</a></li>
-          <li><a href="">Finansowanie inwestycji</a></li>
-          <li><a href="">Strategia marketingowa</a></li>
-          <li><a href="">Strategia sprzedaży</a></li>
-          <li><a href="">Nasze projekty</a></li>
-        </ul>
-      </div>
-      <div>
-        <p>Dla inwestora</p>
-        <ul>
-          <li><a href="">Prywatne akademiki</a></li>
-          <li><a href="">Lokale użytkowe</a></li>
-          <li><a href="">Grunty</a></li>
-        </ul>
-      </div>
-      <div>
-        <p>Wszystkie prawa zastrzeżone © 2018 Equal Area</p>
-        <p>Projekt i wykonanie<span>JAAQOB</span></p>
-      </div>
+    <footer class="page-footer">
+        <div class="wrapper-dark">
+            <div class="container-fluid u-center-1">
+                <div class="row footer-mobile">
+                    <div class="col-md-12">
+                        <div class="social-buttons social-buttons--mobile"><a href="https://www.linkedin.com/company/equalarea/"><i><img src="img/linkedin.svg" alt="Przejdź na nasz profil na linkedin"></i></a><a href="https://www.youtube.com/watch?v=RU3D8hz97sY&t=5s"><i><img src="img/yt.svg" alt="Przejdź na nasz profil na youtube"></i></a><a href="https://www.facebook.com/equalareapl/"><i><img src="img/fb.svg" alt="Przejdź na nasz profil na facebooku"></i></a></div>
+                        <h2 class="tertiary-header page-footer__header accordion">Informacje</h2>
+                        <ul class="page-footer__list panel">
+                            <li><a href="index.html" class="page-footer__list-item">Start</a></li>
+                            <li><a href="projekt-szczegoly.html" class="page-footer__list-item">Projekty</a></li>
+                            <li><a href="projekt-szczegoly.html" class="page-footer__list-item">Kontakt</a></li>
+                            <li><a href="projekt-szczegoly.html" class="page-footer__list-item">Polityka prywatności</a></li>
+                        </ul>
+                        <h2 class="tertiary-header page-footer__header accordion">Kontakt</h2>
+                        <p class="contact-address panel">EQUAL AREA Sp. z o.o.
+                            <br>Rondo ONZ 1
+                            <br>00-124 Warszawa
+                            <br>+48 22 100 42 12
+                            <br><a href="mailto:biuro@equalarea.pl">biuro@equalarea.pl</a></p>
+                    </div>
+                </div>
+                <div class="row footer-desktop">
+                    <div class="col-md-3">
+                        <h2 class="tertiary-header page-footer__header">Informacje</h2>
+                        <ul class="page-footer__list">
+                            <li><a href="index.html" class="page-footer__list-item">Start</a></li>
+                            <li><a href="projekt-szczegoly.html" class="page-footer__list-item">Projekty</a></li>
+                            <!-- <li><a href="" class="page-footer__list-item">Kontakt</a></li>
+                <li><a href="" class="page-footer__list-item">Polityka prywatności</a></li>
+                <li><a href="" class="page-footer__list-item">Regulamin</a></li>   -->
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <!-- <h2 class="tertiary-header page-footer__header">O nas</h2>
+                <ul class="page-footer__list">
+                  <li><a href="" class="page-footer__list-item">Kim jesteśmy</a></li>
+                  <li><a href="" class="page-footer__list-item">Misja i wizja</a></li>
+                  <li><a href="" class="page-footer__list-item">Nasze wartości</a></li>
+                  <li><a href="" class="page-footer__list-item">Zespół</a></li>
+                  <li><a href="" class="page-footer__list-item">Kariera</a></li>
+                </ul>   --></div>
+                    <div class="col-md-3">
+                        <!-- <h2 class="tertiary-header page-footer__header">Dla inwestora</h2>
+                 <ul class="page-footer__list">
+                  <li><a href="" class="page-footer__list-item">Dlaczego my?</a></li>
+                  <li><a href="" class="page-footer__list-item">Etapy współpracy</a></li>
+                  <li><a href="" class="page-footer__list-item">Finansowanie inwestycji</a></li>
+                  <li><a href="" class="page-footer__list-item">Strategia marketingowa</a></li>
+                  <li><a href="" class="page-footer__list-item">Strategia sprzedaży</a></li>
+                  <li><a href="" class="page-footer__list-item">Nasze projekty</a></li>
+                </ul>   --></div>
+                    <div class="col-md-3">
+                        <h2 class="tertiary-header page-footer__header">Kontakt</h2>
+                        <p class="contact-address">EQUAL AREA Sp. z o.o.
+                            <br>Rondo ONZ 1
+                            <br>00-124 Warszawa
+                            <br>+48 22 100 42 12
+                            <br><a href="mailto:biuro@equalarea.pl">biuro@equalarea.pl</a></p>
+                        <!-- <ul class="page-footer__list">
+                <li><a href="" class="page-footer__list-item">Prywatne akademiki</a></li>
+                <li><a href="" class="page-footer__list-item">Lokale użytkowe</a></li>
+                <li><a href="" class="page-footer__list-item">Grunty</a></li>
+              </ul>  -->
+                        <div class="social-buttons"><a href="https://www.linkedin.com/company/equalarea/"><i><img class="linkedin" src="img/linkedin.svg" alt="Przejdź na nasz profil na linkedin"></i></a><a href="https://www.youtube.com/watch?v=RU3D8hz97sY&t=5s"><i><img src="img/yt.svg" alt="Przejdź na nasz profil na youtube"></i></a><a href="https://www.facebook.com/equalareapl/"><i><img src="img/fb.svg" alt="Przejdź na nasz profil na facebooku"></i></a></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 page-footer__copyright">
+                        <p class="page-footer__copyright-text">Wszystkie prawa zastrzeżone © 2018 Equal Area</p>
+                        <div>
+                            <!-- <p class="page-footer__copyright-text">
+                  Projekt i wykonanie:
+                  <a href="https://www.jaaqob.pl/" target="_blank">
+                    <img src="img/jaaqob.svg" alt="Przejdź na stronę www.jaaqob.pl">
+                  </a>
+                </p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
-  </body>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="js/lity.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
 </html>
